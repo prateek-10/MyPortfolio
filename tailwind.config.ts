@@ -8,70 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        incognito: ["var(--incognito)"],
-        inter: ["var(--inter)"],
-      },
-      gridTemplateColumns: {
-        custom: "1.5fr 1fr",
-      },
-      screens: {
-        sm: "480px",
-        md: "768px",
-        lg: "976px",
-        xl: "1440px",
-      },
-      colors: {
-        "primary-color": "#FB576F",
-        "secondary-color": "#0CCE6B",
-        "tertiary-color": "#16a34a",
-        "primary-bg": "rgba(39, 39, 43, 0.4)",
-        "secondary-bg": "rgba(250, 250, 250, 0.4)",
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-      },
-      boxShadow: {
-        "line-light": "rgba(17, 17, 26, 0.1) 0px 1px 0px",
-        "line-dark": "rgb(29, 29, 32) 0px 1px 0px",
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
-      backgroundPosition: {
-        zero: "0 0",
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
