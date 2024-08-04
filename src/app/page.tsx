@@ -7,13 +7,14 @@ import { BiLinkExternal } from "react-icons/bi";
 import Experience from "../pages/experience";
 import Education from "../pages/education";
 import Skills from "../pages/skills";
+import Social from "../components/shared/socials";
 
 export default function Home() {
   return (
     <div id="home" className="container mx-auto">
       <div className="relative lg:max-w-7xl mx-auto max-w-3xl md:px-16 px-6">
         <section className="relative grid lg:grid-cols-custom grid-cols-1 gap-x-6 items-start justify-items-center">
-          <div className="order-1 md:gap-y-20 md:pt-0 pt-4 mt-14">
+          <div className="order-1 md:gap-y-20 md:pt-0 pt-4 mt-10">
             <Slide delay={0.14}>
               <h1 className="font-incognito font-semibold tracking-tight sm:text-5xl text-2xl lg:leading-tight basis-1/2 mb-2">
                 Hey, I&apos;m Prateek kumar Nayak
@@ -31,6 +32,7 @@ export default function Home() {
                 tools and techniques, I create scalable, high-performance
                 solutions tailored to diverse business needs.
               </p>
+              <Social type="social" />
               <br />
               <br />
               <WobbleCard
