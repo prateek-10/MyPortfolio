@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import PageHeading from "../components/shared/pageheading";
-import { Slide } from "../components/animations/slide";
-import EmptyState from "../components/animations/emptystate";
-import { ProjectWobble } from "../components/animations/projectwobble";
-import { PROJECT } from "../components/information/projects";
+import PageHeading from "../../components/shared/pageheading";
+import { Slide } from "../../components/animations/slide";
+import EmptyState from "../../components/animations/emptystate";
+import { ProjectWobble } from "../../components/animations/projectwobble";
+import { PROJECT } from "../../components/information/projects";
 
 export default function Project() {
   return (
