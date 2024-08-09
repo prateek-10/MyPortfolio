@@ -16,6 +16,14 @@ export const PROJECT: ProjectProps[] = [
     coverImage: "/project-cover/cm-cover.png",
   },
   {
+    name: "My-Sisterhood",
+    logo: "/icons/msh.png",
+    tagline:
+      "College Mart: Affordable Deals, Easy Transactions, Campus Connections!",
+    slug: "MySisterhood",
+    coverImage: "/project-cover/sisterhood-cover.png",
+  },
+  {
     name: "GymKhana",
     logo: "/icons/gk.png",
     tagline: "GymKhana: Your one stop personal gym trainer and nutritionist!",
@@ -23,20 +31,12 @@ export const PROJECT: ProjectProps[] = [
     coverImage: "/project-cover/gymkhana-cover.png",
   },
   {
-    name: "College Mart",
-    logo: "/icons/cm.png",
+    name: "KhojKhana",
+    logo: "/icons/kk.png",
     tagline:
       "College Mart: Affordable Deals, Easy Transactions, Campus Connections!",
-    slug: "venmo-app",
-    coverImage: "/project-cover/cm-cover.png",
-  },
-  {
-    name: "College Mart",
-    logo: "/icons/cm.png",
-    tagline:
-      "College Mart: Affordable Deals, Easy Transactions, Campus Connections!",
-    slug: "venmo-app",
-    coverImage: "/project-cover/cm-cover.png",
+    slug: "KhojKhana",
+    coverImage: "/project-cover/khojkhana-cover.png",
   },
   {
     name: "College Mart",
